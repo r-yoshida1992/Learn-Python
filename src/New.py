@@ -1,4 +1,8 @@
 # 空のExcelファイルを作成する
+# --使い方--
+# ・「New.py hoge」で実行
+# ・hoge.xlsxがカレントディレクトリに作成される。
+# ・既に同名ファイルが存在していた場合上書きしてしまうので、注意 TODO ←上書きしないように修正する。
 
 import sys
 import openpyxl
